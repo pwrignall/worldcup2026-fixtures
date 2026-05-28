@@ -1,0 +1,191 @@
+:root {
+  --bg: hsl(260, 10%, 99%);
+  --bg-accent: hsl(260, 10%, 98%);
+  --fg-accent: hsl(260, 10%, 50%);
+  --fg: hsl(260, 10%, 20%);
+  --bold-color: hsl(260, 100%, 40%);
+  --bold-color-accent: hsl(260, 50%, 40%);
+  --form-color: hsl(260, 100%, 60%);
+  font-size: 20px;
+}
+
+@media screen and (max-width: 720px) {
+  :root {
+    font-size: 14px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: hsl(260, 10%, 10%);
+    --bg-accent: hsl(260, 10%, 12%);
+    --fg-accent: hsl(260, 10%, 65%);
+    --fg: hsl(260, 10%, 80%);
+    --bold-color: hsl(260, 100%, 60%);
+    --bold-color-accent: hsl(260, 50%, 60%);
+  }
+}
+
+a {
+  color: var(--bold-color);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--bold-color-accent);
+}
+
+body {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+header {
+  text-align: center;
+  background-color: var(--bg-accent);
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--fg-accent);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-size: 0.8rem;
+}
+
+/* https://moderncss.dev/pure-css-custom-checkbox-style/ */
+.form-control {
+  display: grid;
+  grid-template-columns: 1em auto;
+  gap: 0.6em;
+  font-size: 0.8rem;
+  line-height: 1.1;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--bg-accent);
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.2em;
+  transform: translateY(-0.075em);
+  display: grid;
+  place-content: center;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--form-color);
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.85em;
+  height: 0.85em;
+  border-radius: 0.05em;
+  transform: scale(0);
+  transition: 60ms transform ease-in-out;
+  background-color: var(--form-color);
+  background-image: url("data:image/svg+xml,%3Csvg%20fill%3D%22%23fff%22%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%202%202%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpath%20d%3D%22M1.761%200.606%201.502%200.348a0.048%200.048%200%200%200%20-0.068%200L0.748%201.034l-0.182%20-0.182a0.048%200.048%200%200%200%20-0.068%200L0.239%201.111a0.048%200.048%200%200%200%200%200.068L0.712%201.652a0.048%200.048%200%200%200%200.034%200.014c0.001%200%200.001%200%200.002%200%200%200%200.001%200%200.002%200%200.012%200%200.025%20-0.005%200.034%20-0.014l0.977%20-0.977a0.048%200.048%200%200%200%200%20-0.068%22%2F%3E%3C%2Fsvg%3E");
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+input[type="checkbox"]:focus {
+  outline: max(1px, 0.1em) solid var(--fg-accent);
+  outline-offset: max(1px, 0.1em);
+}
+
+#header-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+#fixtures-list {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--bg-accent);
+  border-top: 1px solid var(--fg-accent);
+  margin: 2rem 0 0 0;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+p.date {
+  font-weight: 400;
+  text-align: center;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: var(--fg-accent);
+  margin: 1.4rem 0 0.4rem 0;
+}
+
+.match-info p {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 0;
+}
+
+.match-info p span {
+  list-style-type: none;
+}
+
+span.stage {
+  text-align: right;
+  text-transform: uppercase;
+  color: var(--fg-accent);
+  font-size: 0.6rem;
+  flex: 1 1 0;
+}
+
+span.venue {
+  color: var(--fg-accent);
+  font-size: 0.6rem;
+  flex: 1 1 0;
+}
+
+span.team {
+  flex: 1.5 1 0;
+}
+
+span.team1 {
+  text-align: right;
+}
+
+span.team2 {
+  text-align: left;
+}
+
+span.time-score {
+  text-align: center;
+  font-weight: 700;
+  flex: 0.7 0.7 0;
+}
+
+p.extra-info {
+  text-align: center;
+  font-style: italic;
+  margin: 0.3rem 0 0.5rem 0;
+  color: var(--fg-accent);
+  font-size: 0.8rem;
+}

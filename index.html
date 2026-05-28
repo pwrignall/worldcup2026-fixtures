@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>World Cup 2026 Fixtures</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="A simple list of World Cup 2026 fixtures" />
+  </head>
+
+  <body>
+    <header>
+      <div id="header-elements">
+        <h1>World Cup 2026 Fixtures</h1>
+        <label class="form-control">
+          <input
+            type="checkbox"
+            id="swap-checkbox"
+            onchange="displayScoresAndExtraInfo()"
+          />
+          Display results
+        </label>
+      </div>
+    </header>
+    <div id="fixtures-list"></div>
+    <footer>
+      <p>A simple list of World Cup 2026 fixtures. All times shown in your local timezone.</p>
+      <p>
+        Seen a mistake? Here's the
+        <a href="https://github.com/pwrignall/worldcup2026-fixtures">repo</a>.
+      </p>
+    </footer>
+  </body>
+  <script src="fixtures.js"></script>
+  <script src="script.js"></script>
+</html>
