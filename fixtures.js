@@ -18,7 +18,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-11T02:00:00Z",
+    datetime: "2026-06-12T02:00:00Z",
     team1: "South Korea",
     team2: "Czech Republic",
     stage: "Group A",
@@ -42,7 +42,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-12T01:00:00Z",
+    datetime: "2026-06-13T01:00:00Z",
     team1: "USA",
     team2: "Paraguay",
     stage: "Group D",
@@ -66,18 +66,6 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-13T04:00:00Z",
-    team1: "Australia",
-    team2: "Türkiye",
-    stage: "Group D",
-    venue: "BC Place, Vancouver",
-    city: "Vancouver",
-    country: "Canada",
-    score: "",
-    extraInfo: ""
-  },
-
-  {
     datetime: "2026-06-13T22:00:00Z",
     team1: "Brazil",
     team2: "Morocco",
@@ -90,13 +78,25 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-13T01:00:00Z",
+    datetime: "2026-06-14T01:00:00Z",
     team1: "Haiti",
     team2: "Scotland",
     stage: "Group C",
     venue: "Gillette Stadium, Foxborough",
     city: "Boston",
     country: "USA",
+    score: "",
+    extraInfo: ""
+  },
+
+  {
+    datetime: "2026-06-14T04:00:00Z",
+    team1: "Australia",
+    team2: "Türkiye",
+    stage: "Group D",
+    venue: "BC Place, Vancouver",
+    city: "Vancouver",
+    country: "Canada",
     score: "",
     extraInfo: ""
   },
@@ -138,7 +138,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-14T02:00:00Z",
+    datetime: "2026-06-15T02:00:00Z",
     team1: "Sweden",
     team2: "Tunisia",
     stage: "Group F",
@@ -186,7 +186,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-15T01:00:00Z",
+    datetime: "2026-06-16T01:00:00Z",
     team1: "Iran",
     team2: "New Zealand",
     stage: "Group G",
@@ -222,7 +222,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-16T01:00:00Z",
+    datetime: "2026-06-17T01:00:00Z",
     team1: "Argentina",
     team2: "Algeria",
     stage: "Group J",
@@ -234,7 +234,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-16T04:00:00Z",
+    datetime: "2026-06-17T04:00:00Z",
     team1: "Austria",
     team2: "Jordan",
     stage: "Group J",
@@ -282,7 +282,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-17T02:00:00Z",
+    datetime: "2026-06-18T02:00:00Z",
     team1: "Uzbekistan",
     team2: "Colombia",
     stage: "Group K",
@@ -330,7 +330,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-18T01:00:00Z",
+    datetime: "2026-06-19T01:00:00Z",
     team1: "Mexico",
     team2: "South Korea",
     stage: "Group A",
@@ -366,7 +366,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-19T01:00:00Z",
+    datetime: "2026-06-20T00:30:00Z",
     team1: "Brazil",
     team2: "Haiti",
     stage: "Group C",
@@ -378,25 +378,13 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-19T03:00:00Z",
+    datetime: "2026-06-20T03:00:00Z",
     team1: "Türkiye",
     team2: "Paraguay",
     stage: "Group D",
     venue: "Levi's Stadium, Santa Clara",
     city: "San Francisco Bay Area",
     country: "USA",
-    score: "",
-    extraInfo: ""
-  },
-
-  {
-    datetime: "2026-06-20T04:00:00Z",
-    team1: "Tunisia",
-    team2: "Japan",
-    stage: "Group F",
-    venue: "Estadio BBVA, Monterrey",
-    city: "Monterrey",
-    country: "Mexico",
     score: "",
     extraInfo: ""
   },
@@ -426,13 +414,25 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-20T00:00:00Z",
+    datetime: "2026-06-21T00:00:00Z",
     team1: "Ecuador",
     team2: "Curaçao",
     stage: "Group E",
     venue: "Arrowhead Stadium, Kansas City",
     city: "Kansas City",
     country: "USA",
+    score: "",
+    extraInfo: ""
+  },
+
+  {
+    datetime: "2026-06-21T04:00:00Z",
+    team1: "Tunisia",
+    team2: "Japan",
+    stage: "Group F",
+    venue: "Estadio BBVA, Monterrey",
+    city: "Monterrey",
+    country: "Mexico",
     score: "",
     extraInfo: ""
   },
@@ -474,7 +474,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-21T01:00:00Z",
+    datetime: "2026-06-22T01:00:00Z",
     team1: "New Zealand",
     team2: "Egypt",
     stage: "Group G",
@@ -510,7 +510,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-22T00:00:00Z",
+    datetime: "2026-06-23T00:00:00Z",
     team1: "Norway",
     team2: "Senegal",
     stage: "Group I",
@@ -522,7 +522,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-22T03:00:00Z",
+    datetime: "2026-06-23T03:00:00Z",
     team1: "Jordan",
     team2: "Algeria",
     stage: "Group J",
@@ -570,7 +570,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-23T02:00:00Z",
+    datetime: "2026-06-24T02:00:00Z",
     team1: "Colombia",
     team2: "DR Congo",
     stage: "Group K",
@@ -630,7 +630,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-24T01:00:00Z",
+    datetime: "2026-06-25T01:00:00Z",
     team1: "Czech Republic",
     team2: "Mexico",
     stage: "Group A",
@@ -642,7 +642,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-24T01:00:00Z",
+    datetime: "2026-06-25T01:00:00Z",
     team1: "South Africa",
     team2: "South Korea",
     stage: "Group A",
@@ -702,7 +702,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-25T02:00:00Z",
+    datetime: "2026-06-26T02:00:00Z",
     team1: "Türkiye",
     team2: "USA",
     stage: "Group D",
@@ -714,7 +714,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-25T02:00:00Z",
+    datetime: "2026-06-26T02:00:00Z",
     team1: "Paraguay",
     team2: "Australia",
     stage: "Group D",
@@ -750,7 +750,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-26T00:00:00Z",
+    datetime: "2026-06-27T00:00:00Z",
     team1: "Cape Verde",
     team2: "Saudi Arabia",
     stage: "Group H",
@@ -762,7 +762,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-26T00:00:00Z",
+    datetime: "2026-06-27T00:00:00Z",
     team1: "Uruguay",
     team2: "Spain",
     stage: "Group H",
@@ -774,7 +774,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-26T03:00:00Z",
+    datetime: "2026-06-27T03:00:00Z",
     team1: "Egypt",
     team2: "Iran",
     stage: "Group G",
@@ -786,7 +786,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-26T03:00:00Z",
+    datetime: "2026-06-27T03:00:00Z",
     team1: "New Zealand",
     team2: "Belgium",
     stage: "Group G",
@@ -846,7 +846,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-27T02:00:00Z",
+    datetime: "2026-06-28T02:00:00Z",
     team1: "Jordan",
     team2: "Argentina",
     stage: "Group J",
@@ -858,7 +858,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-27T02:00:00Z",
+    datetime: "2026-06-28T02:00:00Z",
     team1: "Algeria",
     team2: "Austria",
     stage: "Group J",
@@ -878,19 +878,6 @@ const fixtures = [
     venue: "SoFi Stadium, Los Angeles",
     city: "Los Angeles",
     country: "USA",
-    score: "",
-    extraInfo: ""
-  },
-
-  {
-    datetime: "2026-06-28T01:00:00Z",
-    team1: "Group A winners",
-    team2: "Best 3rd (C/E/F/H/I)",
-    stage: "Round of 32",
-    matchSlot: "Match 79",
-    venue: "Estadio Azteca, Mexico City",
-    city: "Mexico City",
-    country: "Mexico",
     score: "",
     extraInfo: ""
   },
@@ -922,13 +909,13 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-06-29T01:00:00Z",
-    team1: "Group F winners",
-    team2: "Group C runners-up",
+    datetime: "2026-06-30T01:00:00Z",
+    team1: "Group A winners",
+    team2: "Best 3rd (C/E/F/H/I)",
     stage: "Round of 32",
-    matchSlot: "Match 75",
-    venue: "Estadio BBVA, Monterrey",
-    city: "Monterrey",
+    matchSlot: "Match 79",
+    venue: "Estadio Azteca, Mexico City",
+    city: "Mexico City",
     country: "Mexico",
     score: "",
     extraInfo: ""
@@ -961,6 +948,19 @@ const fixtures = [
   },
 
   {
+    datetime: "2026-07-01T01:00:00Z",
+    team1: "Group F winners",
+    team2: "Group C runners-up",
+    stage: "Round of 32",
+    matchSlot: "Match 75",
+    venue: "Estadio BBVA, Monterrey",
+    city: "Monterrey",
+    country: "Mexico",
+    score: "",
+    extraInfo: ""
+  },
+
+  {
     datetime: "2026-07-01T16:00:00Z",
     team1: "Group L winners",
     team2: "Best 3rd (E/H/I/J/K)",
@@ -987,7 +987,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-07-01T00:00:00Z",
+    datetime: "2026-07-02T00:00:00Z",
     team1: "Group D winners",
     team2: "Best 3rd (B/E/F/I/J)",
     stage: "Round of 32",
@@ -1026,7 +1026,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-07-02T03:00:00Z",
+    datetime: "2026-07-03T03:00:00Z",
     team1: "Group B winners",
     team2: "Best 3rd (E/F/G/I/J)",
     stage: "Round of 32",
@@ -1065,7 +1065,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-07-03T01:30:00Z",
+    datetime: "2026-07-04T01:30:00Z",
     team1: "Group K winners",
     team2: "Best 3rd (D/E/I/J/L)",
     stage: "Round of 32",
@@ -1117,7 +1117,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-07-05T00:00:00Z",
+    datetime: "2026-07-06T00:00:00Z",
     team1: "Winner Match 79",
     team2: "Winner Match 80",
     stage: "Round of 16",
@@ -1143,7 +1143,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-07-06T00:00:00Z",
+    datetime: "2026-07-07T00:00:00Z",
     team1: "Winner Match 81",
     team2: "Winner Match 82",
     stage: "Round of 16",
@@ -1221,7 +1221,7 @@ const fixtures = [
   },
 
   {
-    datetime: "2026-07-11T01:00:00Z",
+    datetime: "2026-07-12T01:00:00Z",
     team1: "Winner Match 95",
     team2: "Winner Match 96",
     stage: "Quarter-Final",
