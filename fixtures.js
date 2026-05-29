@@ -32,7 +32,7 @@ const fixtures = [
   {
     datetime: "2026-06-12T19:00:00Z",
     team1: "Canada",
-    team2: "Bosnia and Herzegovina",
+    team2: "Bosnia-Herzegovina",
     stage: "Group B",
     venue: "BMO Field, Toronto",
     city: "Toronto",
@@ -308,7 +308,7 @@ const fixtures = [
   {
     datetime: "2026-06-18T19:00:00Z",
     team1: "Switzerland",
-    team2: "Bosnia and Herzegovina",
+    team2: "Bosnia-Herzegovina",
     stage: "Group B",
     venue: "SoFi Stadium, Los Angeles",
     city: "Los Angeles",
@@ -595,7 +595,7 @@ const fixtures = [
 
   {
     datetime: "2026-06-24T19:00:00Z",
-    team1: "Bosnia and Herzegovina",
+    team1: "Bosnia-Herzegovina",
     team2: "Qatar",
     stage: "Group B",
     venue: "Lumen Field, Seattle",

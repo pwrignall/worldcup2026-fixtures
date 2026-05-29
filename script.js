@@ -4,7 +4,7 @@ const countryFlags = {
   "Czech Republic": "🇨🇿",
   "South Africa": "🇿🇦",
   "Canada": "🇨🇦",
-  "Bosnia and Herzegovina": "🇧🇦",
+  "Bosnia-Herzegovina": "🇧🇦",
   "Switzerland": "🇨🇭",
   "Qatar": "🇶🇦",
   "Brazil": "🇧🇷",
