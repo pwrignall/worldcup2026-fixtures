@@ -6,6 +6,7 @@
   --bold-color: hsl(260, 100%, 40%);
   --bold-color-accent: hsl(260, 50%, 40%);
   --form-color: hsl(260, 100%, 60%);
+  --divider: hsl(260, 10%, 91%);
   font-size: 20px;
 }
 
@@ -23,6 +24,7 @@
     --fg: hsl(260, 10%, 80%);
     --bold-color: hsl(260, 100%, 60%);
     --bold-color-accent: hsl(260, 50%, 60%);
+    --divider: hsl(260, 10%, 17%);
   }
 }
 
@@ -130,62 +132,80 @@ h1 {
   margin: 0;
 }
 
+/* Date headers act as strong section dividers */
 p.date {
-  font-weight: 400;
-  text-align: center;
-  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: left;
+  font-size: 0.75rem;
   text-transform: uppercase;
-  color: var(--fg-accent);
-  margin: 1.4rem 0 0.4rem 0;
+  letter-spacing: 0.1em;
+  color: var(--bold-color);
+  margin: 1.75rem 0 0;
+  padding: 0.45rem 0.75rem 0.4rem;
+  border-top: 2px solid var(--bold-color);
 }
 
-.match-info p {
+/* First date needs no top margin or border — it follows the header directly */
+#fixtures-list > p.date:first-child {
+  margin-top: 0.5rem;
+  border-top: none;
+}
+
+/* Each match: two rows of text, consistent padding */
+.match {
+  padding: 0.5rem 0.75rem 0.4rem;
+}
+
+.match + .match {
+  border-top: 1px solid var(--divider);
+}
+
+/* Row 1: flag Team1   TIME/SCORE   Team2 flag */
+.match-teams {
   display: flex;
-  justify-content: center;
   align-items: baseline;
   margin: 0;
 }
 
-.match-info p span {
-  list-style-type: none;
-}
-
-span.stage {
-  text-align: right;
-  text-transform: uppercase;
-  color: var(--fg-accent);
-  font-size: 0.6rem;
-  flex: 1 1 0;
-}
-
-span.venue {
-  color: var(--fg-accent);
-  font-size: 0.6rem;
-  flex: 1 1 0;
-}
-
 span.team {
-  flex: 1.5 1 0;
+  flex: 1;
 }
 
 span.team1 {
   text-align: right;
+  padding-right: 0.35em;
 }
 
 span.team2 {
   text-align: left;
+  padding-left: 0.35em;
 }
 
+/* Time or score anchors the eye to the centre of every row */
 span.time-score {
+  flex: 0 0 auto;
+  min-width: 3.5em;
+  padding: 0 0.15em;
   text-align: center;
   font-weight: 700;
-  flex: 0.7 0.7 0;
+  color: var(--bold-color);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Row 2: stage · venue — muted metadata, never truncated */
+.match-meta {
+  text-align: center;
+  font-size: 0.6rem;
+  color: var(--fg-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0.2rem 0 0;
 }
 
 p.extra-info {
   text-align: center;
   font-style: italic;
-  margin: 0.3rem 0 0.5rem 0;
+  margin: 0.25rem 0 0;
   color: var(--fg-accent);
   font-size: 0.8rem;
 }

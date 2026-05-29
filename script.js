@@ -103,14 +103,9 @@ fixtures.forEach((dateItem) => {
     const matchDiv = document.createElement("div");
     matchDiv.className = "match";
 
-    const matchInfoDiv = document.createElement("div");
-    matchInfoDiv.className = "match-info";
-
-    const matchText = document.createElement("p");
-
-    const stageSpan = document.createElement("span");
-    stageSpan.className = "stage";
-    stageSpan.textContent = match.stage;
+    // Row 1: Team1 [flag]   time/score   [flag] Team2
+    const teamsPara = document.createElement("p");
+    teamsPara.className = "match-teams";
 
     const team1Span = document.createElement("span");
     team1Span.className = "team team1";
@@ -125,13 +120,14 @@ fixtures.forEach((dateItem) => {
     const flag2 = countryFlags[match.team2];
     team2Span.textContent = flag2 ? `${flag2} ${match.team2}` : match.team2;
 
-    const venueSpan = document.createElement("span");
-    venueSpan.className = "venue";
-    venueSpan.textContent = match.venue;
+    teamsPara.append(team1Span, timeOrScoreSpan, team2Span);
+    matchDiv.appendChild(teamsPara);
 
-    matchText.append(stageSpan, team1Span, timeOrScoreSpan, team2Span, venueSpan);
-    matchInfoDiv.appendChild(matchText);
-    matchDiv.appendChild(matchInfoDiv);
+    // Row 2: Stage · Venue
+    const metaPara = document.createElement("p");
+    metaPara.className = "match-meta";
+    metaPara.textContent = `${match.stage} · ${match.venue}`;
+    matchDiv.appendChild(metaPara);
 
     if (match.extraInfo) {
       const extraInfoPara = document.createElement("p");
