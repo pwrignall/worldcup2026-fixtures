@@ -139,10 +139,10 @@ p.date {
   font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: var(--bold-color);
+  color: var(--fg-accent);
   margin: 1.75rem 0 0;
   padding: 0.45rem 0.75rem 0.4rem;
-  border-top: 2px solid var(--bold-color);
+  border-top: 1px solid var(--bold-color-accent);
 }
 
 /* First date needs no top margin or border — it follows the header directly */
@@ -188,7 +188,7 @@ span.time-score {
   padding: 0 0.15em;
   text-align: center;
   font-weight: 700;
-  color: var(--bold-color);
+  color: var(--fg);
   font-variant-numeric: tabular-nums;
 }
 
