@@ -143,7 +143,7 @@ fixturesWithLocalDate.forEach((match) => {
 displayScoresAndExtraInfo();
 
 // Highlight today's date header and show a scroll-to-today button
-const todayLabel = new Date("2026-06-18T05:00:00Z").toLocaleDateString(undefined, {
+const todayLabel = new Date().toLocaleDateString(undefined, {
   weekday: "long",
   month: "long",
   day: "numeric",
