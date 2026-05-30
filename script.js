@@ -141,3 +141,32 @@ fixturesWithLocalDate.forEach((match) => {
 });
 
 displayScoresAndExtraInfo();
+
+// Highlight today's date header and show a scroll-to-today button
+const todayLabel = new Date("2026-06-18T05:00:00Z").toLocaleDateString(undefined, {
+  weekday: "long",
+  month: "long",
+  day: "numeric",
+});
+
+const todayDateEl = Array.from(fixturesList.querySelectorAll("p.date"))
+  .find((p) => p.textContent === todayLabel);
+
+if (todayDateEl) {
+  todayDateEl.classList.add("today");
+
+  const btn = document.createElement("button");
+  btn.id = "today-btn";
+  btn.textContent = "Today";
+  btn.setAttribute("aria-label", "Scroll to today's matches");
+  btn.addEventListener("click", () => {
+    todayDateEl.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+  document.body.appendChild(btn);
+
+  const observer = new IntersectionObserver(
+    ([entry]) => btn.classList.toggle("visible", !entry.isIntersecting),
+    { rootMargin: "-80px 0px 0px 0px" }
+  );
+  observer.observe(todayDateEl);
+}
