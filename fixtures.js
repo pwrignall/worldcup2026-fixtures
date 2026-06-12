@@ -25,7 +25,7 @@ const fixtures = [
     venue: "Estadio Akron, Guadalajara",
     city: "Guadalajara",
     country: "Mexico",
-    score: "",
+    score: "2 - 1",
     extraInfo: ""
   },
 
