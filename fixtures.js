@@ -37,7 +37,7 @@ const fixtures = [
     venue: "BMO Field, Toronto",
     city: "Toronto",
     country: "Canada",
-    score: "",
+    score: "1 - 1",
     extraInfo: ""
   },
 
