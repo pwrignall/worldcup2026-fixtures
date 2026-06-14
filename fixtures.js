@@ -109,7 +109,7 @@ const fixtures = [
     venue: "NRG Stadium, Houston",
     city: "Houston",
     country: "USA",
-    score: "",
+    score: "7 - 1",
     extraInfo: ""
   },
 
