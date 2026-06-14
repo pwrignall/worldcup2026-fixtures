@@ -73,7 +73,7 @@ const fixtures = [
     venue: "MetLife Stadium, New York/New Jersey",
     city: "East Rutherford",
     country: "USA",
-    score: "",
+    score: "1 - 1",
     extraInfo: ""
   },
 
@@ -85,7 +85,7 @@ const fixtures = [
     venue: "Gillette Stadium, Foxborough",
     city: "Boston",
     country: "USA",
-    score: "",
+    score: "0 - 1",
     extraInfo: ""
   },
 
@@ -97,7 +97,7 @@ const fixtures = [
     venue: "BC Place, Vancouver",
     city: "Vancouver",
     country: "Canada",
-    score: "",
+    score: "2 - 0",
     extraInfo: ""
   },
 
