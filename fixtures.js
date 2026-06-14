@@ -121,7 +121,7 @@ const fixtures = [
     venue: "AT&T Stadium, Arlington",
     city: "Dallas",
     country: "USA",
-    score: "",
+    score: "2 - 2",
     extraInfo: ""
   },
 
