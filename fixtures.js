@@ -157,7 +157,7 @@ const fixtures = [
     venue: "Mercedes-Benz Stadium, Atlanta",
     city: "Atlanta",
     country: "USA",
-    score: "",
+    score: "0 - 0",
     extraInfo: ""
   },
 
@@ -169,7 +169,7 @@ const fixtures = [
     venue: "Lumen Field, Seattle",
     city: "Seattle",
     country: "USA",
-    score: "",
+    score: "1 - 1",
     extraInfo: ""
   },
 
