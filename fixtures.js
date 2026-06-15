@@ -133,7 +133,7 @@ const fixtures = [
     venue: "Lincoln Financial Field, Philadelphia",
     city: "Philadelphia",
     country: "USA",
-    score: "",
+    score: "1 - 0",
     extraInfo: ""
   },
 
@@ -145,7 +145,7 @@ const fixtures = [
     venue: "Estadio BBVA, Monterrey",
     city: "Monterrey",
     country: "Mexico",
-    score: "",
+    score: "5 - 1",
     extraInfo: ""
   },
 
