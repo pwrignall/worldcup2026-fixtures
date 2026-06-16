@@ -181,7 +181,7 @@ const fixtures = [
     venue: "Hard Rock Stadium, Miami",
     city: "Miami",
     country: "USA",
-    score: "",
+    score: "1 - 1",
     extraInfo: ""
   },
 
@@ -193,7 +193,7 @@ const fixtures = [
     venue: "SoFi Stadium, Los Angeles",
     city: "Los Angeles",
     country: "USA",
-    score: "",
+    score: "2 - 2",
     extraInfo: ""
   },
 
