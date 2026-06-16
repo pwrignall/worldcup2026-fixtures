@@ -205,7 +205,7 @@ const fixtures = [
     venue: "MetLife Stadium, New York/New Jersey",
     city: "East Rutherford",
     country: "USA",
-    score: "",
+    score: "3 - 1",
     extraInfo: ""
   },
 
