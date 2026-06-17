@@ -217,7 +217,7 @@ const fixtures = [
     venue: "Gillette Stadium, Foxborough",
     city: "Boston",
     country: "USA",
-    score: "",
+    score: "1 - 4",
     extraInfo: ""
   },
 
@@ -229,7 +229,7 @@ const fixtures = [
     venue: "Arrowhead Stadium, Kansas City",
     city: "Kansas City",
     country: "USA",
-    score: "",
+    score: "3 - 0",
     extraInfo: ""
   },
 
@@ -241,7 +241,7 @@ const fixtures = [
     venue: "Levi's Stadium, Santa Clara",
     city: "San Francisco Bay Area",
     country: "USA",
-    score: "",
+    score: "1 - 0",
     extraInfo: ""
   },
 
