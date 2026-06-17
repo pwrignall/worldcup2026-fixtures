@@ -241,7 +241,7 @@ const fixtures = [
     venue: "Levi's Stadium, Santa Clara",
     city: "San Francisco Bay Area",
     country: "USA",
-    score: "1 - 0",
+    score: "",
     extraInfo: ""
   },
 
