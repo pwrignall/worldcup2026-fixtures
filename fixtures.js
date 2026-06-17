@@ -253,7 +253,7 @@ const fixtures = [
     venue: "NRG Stadium, Houston",
     city: "Houston",
     country: "USA",
-    score: "",
+    score: "1 - 1",
     extraInfo: ""
   },
 
@@ -265,7 +265,7 @@ const fixtures = [
     venue: "AT&T Stadium, Arlington",
     city: "Dallas",
     country: "USA",
-    score: "",
+    score: "4 - 2",
     extraInfo: ""
   },
 
