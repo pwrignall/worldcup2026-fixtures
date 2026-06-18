@@ -277,7 +277,7 @@ const fixtures = [
     venue: "BMO Field, Toronto",
     city: "Toronto",
     country: "Canada",
-    score: "",
+    score: "1 - 0",
     extraInfo: ""
   },
 
@@ -289,7 +289,7 @@ const fixtures = [
     venue: "Estadio Azteca, Mexico City",
     city: "Mexico City",
     country: "Mexico",
-    score: "",
+    score: "1 - 3",
     extraInfo: ""
   },
 
