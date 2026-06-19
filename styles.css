@@ -216,12 +216,12 @@ p.date.today::before {
   position: fixed;
   bottom: 1.5rem;
   right: 1.5rem;
-  background-color: var(--bg-accent);
-  color: var(--bold-color);
+  background-color: var(--bold-color);
+  color: hsl(260, 10%, 99%);
   border: 1px solid var(--bold-color-accent);
   border-radius: 2rem;
-  padding: 0.35rem 0.85rem;
-  font-size: 0.7rem;
+  padding: 0.35rem 1rem;
+  font-size: 0.8rem;
   font-family: inherit;
   font-weight: 600;
   letter-spacing: 0.05em;
