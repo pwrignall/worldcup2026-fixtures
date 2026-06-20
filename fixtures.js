@@ -373,7 +373,7 @@ const fixtures = [
     venue: "Lincoln Financial Field, Philadelphia",
     city: "Philadelphia",
     country: "USA",
-    score: "",
+    score: "3 - 0",
     extraInfo: ""
   },
 
@@ -385,7 +385,7 @@ const fixtures = [
     venue: "Levi's Stadium, Santa Clara",
     city: "San Francisco Bay Area",
     country: "USA",
-    score: "",
+    score: "0 - 1",
     extraInfo: ""
   },
 
