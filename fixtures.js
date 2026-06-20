@@ -349,7 +349,7 @@ const fixtures = [
     venue: "Lumen Field, Seattle",
     city: "Seattle",
     country: "USA",
-    score: "",
+    score: "2 - 0",
     extraInfo: ""
   },
 
@@ -361,7 +361,7 @@ const fixtures = [
     venue: "Gillette Stadium, Foxborough",
     city: "Boston",
     country: "USA",
-    score: "",
+    score: "0 - 1",
     extraInfo: ""
   },
 
