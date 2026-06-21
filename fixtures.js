@@ -397,7 +397,7 @@ const fixtures = [
     venue: "NRG Stadium, Houston",
     city: "Houston",
     country: "USA",
-    score: "",
+    score: "5 - 1",
     extraInfo: ""
   },
 
@@ -409,7 +409,7 @@ const fixtures = [
     venue: "BMO Field, Toronto",
     city: "Toronto",
     country: "Canada",
-    score: "",
+    score: "2 - 1",
     extraInfo: ""
   },
 
@@ -421,7 +421,7 @@ const fixtures = [
     venue: "Arrowhead Stadium, Kansas City",
     city: "Kansas City",
     country: "USA",
-    score: "",
+    score: "0 - 0",
     extraInfo: ""
   },
 
@@ -433,7 +433,7 @@ const fixtures = [
     venue: "Estadio BBVA, Monterrey",
     city: "Monterrey",
     country: "Mexico",
-    score: "",
+    score: "0 - 4",
     extraInfo: ""
   },
 
