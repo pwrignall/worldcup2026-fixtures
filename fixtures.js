@@ -469,7 +469,7 @@ const fixtures = [
     venue: "Hard Rock Stadium, Miami",
     city: "Miami",
     country: "USA",
-    score: "",
+    score: "2 - 2",
     extraInfo: ""
   },
 
@@ -481,7 +481,7 @@ const fixtures = [
     venue: "BC Place, Vancouver",
     city: "Vancouver",
     country: "Canada",
-    score: "",
+    score: "1 - 3",
     extraInfo: ""
   },
 
