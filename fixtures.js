@@ -541,7 +541,7 @@ const fixtures = [
     venue: "NRG Stadium, Houston",
     city: "Houston",
     country: "USA",
-    score: "",
+    score: "5 - 0",
     extraInfo: ""
   },
 
@@ -553,7 +553,7 @@ const fixtures = [
     venue: "Gillette Stadium, Foxborough",
     city: "Boston",
     country: "USA",
-    score: "",
+    score: "0 - 0",
     extraInfo: ""
   },
 
