@@ -493,7 +493,7 @@ const fixtures = [
     venue: "AT&T Stadium, Arlington",
     city: "Dallas",
     country: "USA",
-    score: "",
+    score: "2 - 0",
     extraInfo: ""
   },
 
@@ -505,7 +505,7 @@ const fixtures = [
     venue: "Lincoln Financial Field, Philadelphia",
     city: "Philadelphia",
     country: "USA",
-    score: "",
+    score: "3 - 0",
     extraInfo: ""
   },
 
@@ -517,7 +517,7 @@ const fixtures = [
     venue: "MetLife Stadium, New York/New Jersey",
     city: "East Rutherford",
     country: "USA",
-    score: "",
+    score: "3 - 2",
     extraInfo: ""
   },
 
@@ -529,7 +529,7 @@ const fixtures = [
     venue: "Levi's Stadium, Santa Clara",
     city: "San Francisco Bay Area",
     country: "USA",
-    score: "",
+    score: "1 - 2",
     extraInfo: ""
   },
 
