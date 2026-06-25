@@ -589,7 +589,7 @@ const fixtures = [
     venue: "BC Place, Vancouver",
     city: "Vancouver",
     country: "Canada",
-    score: "",
+    score: "2 - 1",
     extraInfo: ""
   },
 
@@ -601,7 +601,7 @@ const fixtures = [
     venue: "Lumen Field, Seattle",
     city: "Seattle",
     country: "USA",
-    score: "",
+    score: "3 - 1",
     extraInfo: ""
   },
 
@@ -613,7 +613,7 @@ const fixtures = [
     venue: "Hard Rock Stadium, Miami",
     city: "Miami",
     country: "USA",
-    score: "",
+    score: "0 - 3",
     extraInfo: ""
   },
 
@@ -625,7 +625,7 @@ const fixtures = [
     venue: "Mercedes-Benz Stadium, Atlanta",
     city: "Atlanta",
     country: "USA",
-    score: "",
+    score: "4 - 2",
     extraInfo: ""
   },
 
@@ -637,7 +637,7 @@ const fixtures = [
     venue: "Estadio Azteca, Mexico City",
     city: "Mexico City",
     country: "Mexico",
-    score: "",
+    score: "0 - 3",
     extraInfo: ""
   },
 
@@ -649,7 +649,7 @@ const fixtures = [
     venue: "Estadio BBVA, Monterrey",
     city: "Monterrey",
     country: "Mexico",
-    score: "",
+    score: "1 - 0",
     extraInfo: ""
   },
 
@@ -871,8 +871,8 @@ const fixtures = [
 
   {
     datetime: "2026-06-28T19:00:00Z",
-    team1: "Group A runners-up",
-    team2: "Group B runners-up",
+    team1: "South Africa",
+    team2: "Canada",
     stage: "Round of 32",
     matchSlot: "Match 73",
     venue: "SoFi Stadium, Los Angeles",
@@ -884,7 +884,7 @@ const fixtures = [
 
   {
     datetime: "2026-06-29T17:00:00Z",
-    team1: "Group C winners",
+    team1: "Brazil",
     team2: "Group F runners-up",
     stage: "Round of 32",
     matchSlot: "Match 76",
@@ -897,7 +897,7 @@ const fixtures = [
 
   {
     datetime: "2026-06-29T20:30:00Z",
-    team1: "Group E winners",
+    team1: "Germany",
     team2: "Best 3rd (A/B/C/D/F)",
     stage: "Round of 32",
     matchSlot: "Match 74",
@@ -910,12 +910,12 @@ const fixtures = [
 
   {
     datetime: "2026-06-30T01:00:00Z",
-    team1: "Group A winners",
-    team2: "Best 3rd (C/E/F/H/I)",
+    team1: "Group F winners",
+    team2: "Morocco",
     stage: "Round of 32",
-    matchSlot: "Match 79",
-    venue: "Estadio Azteca, Mexico City",
-    city: "Mexico City",
+    matchSlot: "Match 75",
+    venue: "Estadio BBVA, Monterrey",
+    city: "Monterrey",
     country: "Mexico",
     score: "",
     extraInfo: ""
@@ -949,12 +949,12 @@ const fixtures = [
 
   {
     datetime: "2026-07-01T01:00:00Z",
-    team1: "Group F winners",
-    team2: "Group C runners-up",
+    team1: "Group A winners",
+    team2: "Best 3rd (C/E/F/H/I)",
     stage: "Round of 32",
-    matchSlot: "Match 75",
-    venue: "Estadio BBVA, Monterrey",
-    city: "Monterrey",
+    matchSlot: "Match 79",
+    venue: "Estadio Azteca, Mexico City",
+    city: "Mexico City",
     country: "Mexico",
     score: "",
     extraInfo: ""
@@ -988,7 +988,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-02T00:00:00Z",
-    team1: "Group D winners",
+    team1: "USA",
     team2: "Best 3rd (B/E/F/I/J)",
     stage: "Round of 32",
     matchSlot: "Match 81",
@@ -1027,7 +1027,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-03T03:00:00Z",
-    team1: "Group B winners",
+    team1: "Switzerland",
     team2: "Best 3rd (E/F/G/I/J)",
     stage: "Round of 32",
     matchSlot: "Match 85",
@@ -1053,7 +1053,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-03T22:00:00Z",
-    team1: "Group J winners",
+    team1: "Argentina",
     team2: "Group H runners-up",
     stage: "Round of 32",
     matchSlot: "Match 86",
