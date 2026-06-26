@@ -661,7 +661,7 @@ const fixtures = [
     venue: "Lincoln Financial Field, Philadelphia",
     city: "Philadelphia",
     country: "USA",
-    score: "",
+    score: "0 - 2",
     extraInfo: ""
   },
 
@@ -673,7 +673,7 @@ const fixtures = [
     venue: "MetLife Stadium, New York/New Jersey",
     city: "East Rutherford",
     country: "USA",
-    score: "",
+    score: "2 - 1",
     extraInfo: ""
   },
 
@@ -685,7 +685,7 @@ const fixtures = [
     venue: "AT&T Stadium, Arlington",
     city: "Dallas",
     country: "USA",
-    score: "",
+    score: "1 - 1",
     extraInfo: ""
   },
 
@@ -697,7 +697,7 @@ const fixtures = [
     venue: "Arrowhead Stadium, Kansas City",
     city: "Kansas City",
     country: "USA",
-    score: "",
+    score: "1 - 3",
     extraInfo: ""
   },
 
@@ -709,7 +709,7 @@ const fixtures = [
     venue: "SoFi Stadium, Los Angeles",
     city: "Los Angeles",
     country: "USA",
-    score: "",
+    score: "3 - 2",
     extraInfo: ""
   },
 
@@ -721,7 +721,7 @@ const fixtures = [
     venue: "Levi's Stadium, Santa Clara",
     city: "San Francisco Bay Area",
     country: "USA",
-    score: "",
+    score: "0 - 0",
     extraInfo: ""
   },
 
@@ -885,7 +885,7 @@ const fixtures = [
   {
     datetime: "2026-06-29T17:00:00Z",
     team1: "Brazil",
-    team2: "Group F runners-up",
+    team2: "Japan",
     stage: "Round of 32",
     matchSlot: "Match 76",
     venue: "NRG Stadium, Houston",
@@ -910,7 +910,7 @@ const fixtures = [
 
   {
     datetime: "2026-06-30T01:00:00Z",
-    team1: "Group F winners",
+    team1: "Netherlands",
     team2: "Morocco",
     stage: "Round of 32",
     matchSlot: "Match 75",
@@ -923,7 +923,7 @@ const fixtures = [
 
   {
     datetime: "2026-06-30T17:00:00Z",
-    team1: "Group E runners-up",
+    team1: "Ivory Coast",
     team2: "Group I runners-up",
     stage: "Round of 32",
     matchSlot: "Match 78",
@@ -949,7 +949,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-01T01:00:00Z",
-    team1: "Group A winners",
+    team1: "Mexico",
     team2: "Best 3rd (C/E/F/H/I)",
     stage: "Round of 32",
     matchSlot: "Match 79",
@@ -989,7 +989,7 @@ const fixtures = [
   {
     datetime: "2026-07-02T00:00:00Z",
     team1: "USA",
-    team2: "Best 3rd (B/E/F/I/J)",
+    team2: "Bosnia-Herzegovina",
     stage: "Round of 32",
     matchSlot: "Match 81",
     venue: "Levi's Stadium, Santa Clara",
@@ -1040,7 +1040,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-03T18:00:00Z",
-    team1: "Group D runners-up",
+    team1: "Australia",
     team2: "Group G runners-up",
     stage: "Round of 32",
     matchSlot: "Match 88",
