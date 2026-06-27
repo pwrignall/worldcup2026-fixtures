@@ -733,7 +733,7 @@ const fixtures = [
     venue: "Gillette Stadium, Foxborough",
     city: "Boston",
     country: "USA",
-    score: "",
+    score: "1 - 4",
     extraInfo: ""
   },
 
@@ -745,7 +745,7 @@ const fixtures = [
     venue: "BMO Field, Toronto",
     city: "Toronto",
     country: "Canada",
-    score: "",
+    score: "5 - 0",
     extraInfo: ""
   },
 
@@ -757,7 +757,7 @@ const fixtures = [
     venue: "NRG Stadium, Houston",
     city: "Houston",
     country: "USA",
-    score: "",
+    score: "0 - 0",
     extraInfo: ""
   },
 
@@ -769,7 +769,7 @@ const fixtures = [
     venue: "Estadio Akron, Guadalajara",
     city: "Guadalajara",
     country: "Mexico",
-    score: "",
+    score: "0 - 1",
     extraInfo: ""
   },
 
@@ -781,7 +781,7 @@ const fixtures = [
     venue: "Lumen Field, Seattle",
     city: "Seattle",
     country: "USA",
-    score: "",
+    score: "1 - 1",
     extraInfo: ""
   },
 
@@ -793,7 +793,7 @@ const fixtures = [
     venue: "BC Place, Vancouver",
     city: "Vancouver",
     country: "Canada",
-    score: "",
+    score: "1 - 5",
     extraInfo: ""
   },
 
@@ -898,7 +898,7 @@ const fixtures = [
   {
     datetime: "2026-06-29T20:30:00Z",
     team1: "Germany",
-    team2: "Best 3rd (A/B/C/D/F)",
+    team2: "Paraguay",
     stage: "Round of 32",
     matchSlot: "Match 74",
     venue: "Gillette Stadium, Foxborough",
@@ -924,7 +924,7 @@ const fixtures = [
   {
     datetime: "2026-06-30T17:00:00Z",
     team1: "Ivory Coast",
-    team2: "Group I runners-up",
+    team2: "Norway",
     stage: "Round of 32",
     matchSlot: "Match 78",
     venue: "AT&T Stadium, Arlington",
@@ -936,8 +936,8 @@ const fixtures = [
 
   {
     datetime: "2026-06-30T21:00:00Z",
-    team1: "Group I winners",
-    team2: "Best 3rd (C/D/F/G/H)",
+    team1: "France",
+    team2: "Sweden",
     stage: "Round of 32",
     matchSlot: "Match 77",
     venue: "MetLife Stadium, New York/New Jersey",
@@ -975,7 +975,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-01T20:00:00Z",
-    team1: "Group G winners",
+    team1: "Belgium",
     team2: "Best 3rd (A/E/H/I/J)",
     stage: "Round of 32",
     matchSlot: "Match 82",
@@ -1001,7 +1001,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-02T19:00:00Z",
-    team1: "Group H winners",
+    team1: "Spain",
     team2: "Group J runners-up",
     stage: "Round of 32",
     matchSlot: "Match 84",
@@ -1041,7 +1041,7 @@ const fixtures = [
   {
     datetime: "2026-07-03T18:00:00Z",
     team1: "Australia",
-    team2: "Group G runners-up",
+    team2: "Egypt",
     stage: "Round of 32",
     matchSlot: "Match 88",
     venue: "AT&T Stadium, Arlington",
@@ -1054,7 +1054,7 @@ const fixtures = [
   {
     datetime: "2026-07-03T22:00:00Z",
     team1: "Argentina",
-    team2: "Group H runners-up",
+    team2: "Cape Verde",
     stage: "Round of 32",
     matchSlot: "Match 86",
     venue: "Hard Rock Stadium, Miami",
