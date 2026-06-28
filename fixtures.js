@@ -805,7 +805,7 @@ const fixtures = [
     venue: "MetLife Stadium, New York/New Jersey",
     city: "East Rutherford",
     country: "USA",
-    score: "",
+    score: "0 - 2",
     extraInfo: ""
   },
 
@@ -817,7 +817,7 @@ const fixtures = [
     venue: "Lincoln Financial Field, Philadelphia",
     city: "Philadelphia",
     country: "USA",
-    score: "",
+    score: "2 - 1",
     extraInfo: ""
   },
 
@@ -829,7 +829,7 @@ const fixtures = [
     venue: "Hard Rock Stadium, Miami",
     city: "Miami",
     country: "USA",
-    score: "",
+    score: "0 - 0",
     extraInfo: ""
   },
 
@@ -841,7 +841,7 @@ const fixtures = [
     venue: "Mercedes-Benz Stadium, Atlanta",
     city: "Atlanta",
     country: "USA",
-    score: "",
+    score: "3 - 1",
     extraInfo: ""
   },
 
@@ -853,7 +853,7 @@ const fixtures = [
     venue: "AT&T Stadium, Arlington",
     city: "Dallas",
     country: "USA",
-    score: "",
+    score: "1 - 3",
     extraInfo: ""
   },
 
@@ -865,7 +865,7 @@ const fixtures = [
     venue: "Arrowhead Stadium, Kansas City",
     city: "Kansas City",
     country: "USA",
-    score: "",
+    score: "3 - 3",
     extraInfo: ""
   },
 
@@ -950,7 +950,7 @@ const fixtures = [
   {
     datetime: "2026-07-01T01:00:00Z",
     team1: "Mexico",
-    team2: "Best 3rd (C/E/F/H/I)",
+    team2: "Ecuador",
     stage: "Round of 32",
     matchSlot: "Match 79",
     venue: "Estadio Azteca, Mexico City",
@@ -962,8 +962,8 @@ const fixtures = [
 
   {
     datetime: "2026-07-01T16:00:00Z",
-    team1: "Group L winners",
-    team2: "Best 3rd (E/H/I/J/K)",
+    team1: "England",
+    team2: "DR Congo",
     stage: "Round of 32",
     matchSlot: "Match 80",
     venue: "Mercedes-Benz Stadium, Atlanta",
@@ -976,7 +976,7 @@ const fixtures = [
   {
     datetime: "2026-07-01T20:00:00Z",
     team1: "Belgium",
-    team2: "Best 3rd (A/E/H/I/J)",
+    team2: "Senegal",
     stage: "Round of 32",
     matchSlot: "Match 82",
     venue: "Lumen Field, Seattle",
@@ -1002,7 +1002,7 @@ const fixtures = [
   {
     datetime: "2026-07-02T19:00:00Z",
     team1: "Spain",
-    team2: "Group J runners-up",
+    team2: "Austria",
     stage: "Round of 32",
     matchSlot: "Match 84",
     venue: "SoFi Stadium, Los Angeles",
@@ -1014,8 +1014,8 @@ const fixtures = [
 
   {
     datetime: "2026-07-02T23:00:00Z",
-    team1: "Group K runners-up",
-    team2: "Group L runners-up",
+    team1: "Portugal",
+    team2: "Croatia",
     stage: "Round of 32",
     matchSlot: "Match 83",
     venue: "BMO Field, Toronto",
@@ -1028,7 +1028,7 @@ const fixtures = [
   {
     datetime: "2026-07-03T03:00:00Z",
     team1: "Switzerland",
-    team2: "Best 3rd (E/F/G/I/J)",
+    team2: "Algeria",
     stage: "Round of 32",
     matchSlot: "Match 85",
     venue: "BC Place, Vancouver",
@@ -1066,8 +1066,8 @@ const fixtures = [
 
   {
     datetime: "2026-07-04T01:30:00Z",
-    team1: "Group K winners",
-    team2: "Best 3rd (D/E/I/J/L)",
+    team1: "Colombia",
+    team2: "Ghana",
     stage: "Round of 32",
     matchSlot: "Match 87",
     venue: "Arrowhead Stadium, Kansas City",
