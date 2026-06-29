@@ -878,7 +878,7 @@ const fixtures = [
     venue: "SoFi Stadium, Los Angeles",
     city: "Los Angeles",
     country: "USA",
-    score: "",
+    score: "0 - 1",
     extraInfo: ""
   },
 
