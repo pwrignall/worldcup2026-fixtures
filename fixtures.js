@@ -917,8 +917,8 @@ const fixtures = [
     venue: "Estadio BBVA, Monterrey",
     city: "Monterrey",
     country: "Mexico",
-    score: "",
-    extraInfo: ""
+    score: "1 - 1",
+    extraInfo: "1 - 1 a.e.t. Morocco win 3 - 2 on pens"
   },
 
   {
