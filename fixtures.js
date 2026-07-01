@@ -878,7 +878,7 @@ const fixtures = [
     venue: "SoFi Stadium, Los Angeles",
     city: "Los Angeles",
     country: "USA",
-    score: "",
+    score: "0 - 1",
     extraInfo: ""
   },
 
@@ -891,7 +891,7 @@ const fixtures = [
     venue: "NRG Stadium, Houston",
     city: "Houston",
     country: "USA",
-    score: "",
+    score: "2 - 1",
     extraInfo: ""
   },
 
@@ -904,8 +904,8 @@ const fixtures = [
     venue: "Gillette Stadium, Foxborough",
     city: "Boston",
     country: "USA",
-    score: "",
-    extraInfo: ""
+    score: "1 - 1",
+    extraInfo: "1 - 1 a.e.t. Paraguay win 4 - 3 on pens"
   },
 
   {
@@ -917,8 +917,8 @@ const fixtures = [
     venue: "Estadio BBVA, Monterrey",
     city: "Monterrey",
     country: "Mexico",
-    score: "",
-    extraInfo: ""
+    score: "1 - 1",
+    extraInfo: "1 - 1 a.e.t. Morocco win 3 - 2 on pens"
   },
 
   {
@@ -1079,7 +1079,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-04T17:00:00Z",
-    team1: "Winner Match 73",
+    team1: "Canada",
     team2: "Winner Match 75",
     stage: "Round of 16",
     matchSlot: "Match 90",
@@ -1092,7 +1092,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-04T21:00:00Z",
-    team1: "Winner Match 74",
+    team1: "Paraguay",
     team2: "Winner Match 77",
     stage: "Round of 16",
     matchSlot: "Match 89",
@@ -1105,7 +1105,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-05T20:00:00Z",
-    team1: "Winner Match 76",
+    team1: "Brazil",
     team2: "Winner Match 78",
     stage: "Round of 16",
     matchSlot: "Match 91",
