@@ -1080,7 +1080,7 @@ const fixtures = [
   {
     datetime: "2026-07-04T17:00:00Z",
     team1: "Canada",
-    team2: "Winner Match 75",
+    team2: "Morocco",
     stage: "Round of 16",
     matchSlot: "Match 90",
     venue: "NRG Stadium, Houston",
@@ -1093,7 +1093,7 @@ const fixtures = [
   {
     datetime: "2026-07-04T21:00:00Z",
     team1: "Paraguay",
-    team2: "Winner Match 77",
+    team2: "France",
     stage: "Round of 16",
     matchSlot: "Match 89",
     venue: "Lincoln Financial Field, Philadelphia",
@@ -1106,7 +1106,7 @@ const fixtures = [
   {
     datetime: "2026-07-05T20:00:00Z",
     team1: "Brazil",
-    team2: "Winner Match 78",
+    team2: "Norway",
     stage: "Round of 16",
     matchSlot: "Match 91",
     venue: "MetLife Stadium, New York/New Jersey",
@@ -1118,7 +1118,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-06T00:00:00Z",
-    team1: "Winner Match 79",
+    team1: "Mexico",
     team2: "Winner Match 80",
     stage: "Round of 16",
     matchSlot: "Match 92",
