@@ -930,7 +930,7 @@ const fixtures = [
     venue: "AT&T Stadium, Arlington",
     city: "Dallas",
     country: "USA",
-    score: "",
+    score: "1 - 2",
     extraInfo: ""
   },
 
@@ -943,7 +943,7 @@ const fixtures = [
     venue: "MetLife Stadium, New York/New Jersey",
     city: "East Rutherford",
     country: "USA",
-    score: "",
+    score: "3 - 0",
     extraInfo: ""
   },
 
@@ -956,7 +956,7 @@ const fixtures = [
     venue: "Estadio Azteca, Mexico City",
     city: "Mexico City",
     country: "Mexico",
-    score: "",
+    score: "2 - 0",
     extraInfo: ""
   },
 
