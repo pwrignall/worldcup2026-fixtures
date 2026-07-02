@@ -43,7 +43,7 @@ const fixtures = [
 
   {
     datetime: "2026-06-13T01:00:00Z",
-    team1: "USA",
+    team1: "United States",
     team2: "Paraguay",
     stage: "Group D",
     venue: "SoFi Stadium, Los Angeles",
@@ -343,7 +343,7 @@ const fixtures = [
 
   {
     datetime: "2026-06-19T19:00:00Z",
-    team1: "USA",
+    team1: "United States",
     team2: "Australia",
     stage: "Group D",
     venue: "Lumen Field, Seattle",
@@ -704,7 +704,7 @@ const fixtures = [
   {
     datetime: "2026-06-26T02:00:00Z",
     team1: "Türkiye",
-    team2: "USA",
+    team2: "United States",
     stage: "Group D",
     venue: "SoFi Stadium, Los Angeles",
     city: "Los Angeles",
@@ -969,7 +969,7 @@ const fixtures = [
     venue: "Mercedes-Benz Stadium, Atlanta",
     city: "Atlanta",
     country: "USA",
-    score: "",
+    score: "2 - 1",
     extraInfo: ""
   },
 
@@ -982,20 +982,20 @@ const fixtures = [
     venue: "Lumen Field, Seattle",
     city: "Seattle",
     country: "USA",
-    score: "",
-    extraInfo: ""
+    score: "2 - 2",
+    extraInfo: "3 - 2 a.e.t."
   },
 
   {
     datetime: "2026-07-02T00:00:00Z",
-    team1: "USA",
+    team1: "United States",
     team2: "Bosnia-Herzegovina",
     stage: "Round of 32",
     matchSlot: "Match 81",
     venue: "Levi's Stadium, Santa Clara",
     city: "San Francisco Bay Area",
     country: "USA",
-    score: "",
+    score: "2 - 0",
     extraInfo: ""
   },
 
@@ -1119,7 +1119,7 @@ const fixtures = [
   {
     datetime: "2026-07-06T00:00:00Z",
     team1: "Mexico",
-    team2: "Winner Match 80",
+    team2: "England",
     stage: "Round of 16",
     matchSlot: "Match 92",
     venue: "Estadio Azteca, Mexico City",
@@ -1144,8 +1144,8 @@ const fixtures = [
 
   {
     datetime: "2026-07-07T00:00:00Z",
-    team1: "Winner Match 81",
-    team2: "Winner Match 82",
+    team1: "United States",
+    team2: "Belgium",
     stage: "Round of 16",
     matchSlot: "Match 94",
     venue: "Lumen Field, Seattle",

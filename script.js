@@ -11,7 +11,7 @@ const countryFlags = {
   "Morocco": "🇲🇦",
   "Scotland": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
   "Haiti": "🇭🇹",
-  "USA": "🇺🇸",
+  "United States": "🇺🇸",
   "Paraguay": "🇵🇾",
   "Türkiye": "🇹🇷",
   "Australia": "🇦🇺",
