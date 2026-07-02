@@ -1008,7 +1008,7 @@ const fixtures = [
     venue: "SoFi Stadium, Los Angeles",
     city: "Los Angeles",
     country: "USA",
-    score: "",
+    score: "3 - 0",
     extraInfo: ""
   },
 
@@ -1132,7 +1132,7 @@ const fixtures = [
   {
     datetime: "2026-07-06T19:00:00Z",
     team1: "Winner Match 83",
-    team2: "Winner Match 84",
+    team2: "Spain",
     stage: "Round of 16",
     matchSlot: "Match 93",
     venue: "AT&T Stadium, Arlington",
