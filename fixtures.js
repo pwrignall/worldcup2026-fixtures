@@ -1021,7 +1021,7 @@ const fixtures = [
     venue: "BMO Field, Toronto",
     city: "Toronto",
     country: "Canada",
-    score: "",
+    score: "2 - 1",
     extraInfo: ""
   },
 
@@ -1034,7 +1034,7 @@ const fixtures = [
     venue: "BC Place, Vancouver",
     city: "Vancouver",
     country: "Canada",
-    score: "",
+    score: "2 - 0",
     extraInfo: ""
   },
 
@@ -1131,7 +1131,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-06T19:00:00Z",
-    team1: "Winner Match 83",
+    team1: "Portugal",
     team2: "Spain",
     stage: "Round of 16",
     matchSlot: "Match 93",
@@ -1170,7 +1170,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-07T20:00:00Z",
-    team1: "Winner Match 85",
+    team1: "Switzerland",
     team2: "Winner Match 87",
     stage: "Round of 16",
     matchSlot: "Match 96",
