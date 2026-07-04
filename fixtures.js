@@ -152,7 +152,7 @@ const fixtures = [
   {
     datetime: "2026-06-15T16:00:00Z",
     team1: "Spain",
-    team2: "Cape Verde",
+    team2: "Cabo Verde",
     stage: "Group H",
     venue: "Mercedes-Benz Stadium, Atlanta",
     city: "Atlanta",
@@ -464,7 +464,7 @@ const fixtures = [
   {
     datetime: "2026-06-21T22:00:00Z",
     team1: "Uruguay",
-    team2: "Cape Verde",
+    team2: "Cabo Verde",
     stage: "Group H",
     venue: "Hard Rock Stadium, Miami",
     city: "Miami",
@@ -751,7 +751,7 @@ const fixtures = [
 
   {
     datetime: "2026-06-27T00:00:00Z",
-    team1: "Cape Verde",
+    team1: "Cabo Verde",
     team2: "Saudi Arabia",
     stage: "Group H",
     venue: "NRG Stadium, Houston",
@@ -1047,21 +1047,21 @@ const fixtures = [
     venue: "AT&T Stadium, Arlington",
     city: "Dallas",
     country: "USA",
-    score: "",
-    extraInfo: ""
+    score: "1 - 1",
+    extraInfo: "1 - 1 a.e.t. Egypt win 4 - 2 on pens"
   },
 
   {
     datetime: "2026-07-03T22:00:00Z",
     team1: "Argentina",
-    team2: "Cape Verde",
+    team2: "Cabo Verde",
     stage: "Round of 32",
     matchSlot: "Match 86",
     venue: "Hard Rock Stadium, Miami",
     city: "Miami",
     country: "USA",
-    score: "",
-    extraInfo: ""
+    score: "1 - 1",
+    extraInfo: "3 - 2 a.e.t."
   },
 
   {
@@ -1157,8 +1157,8 @@ const fixtures = [
 
   {
     datetime: "2026-07-07T16:00:00Z",
-    team1: "Winner Match 86",
-    team2: "Winner Match 88",
+    team1: "Argentina",
+    team2: "Egypt",
     stage: "Round of 16",
     matchSlot: "Match 95",
     venue: "Mercedes-Benz Stadium, Atlanta",

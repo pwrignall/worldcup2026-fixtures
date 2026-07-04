@@ -30,7 +30,7 @@ const countryFlags = {
   "Spain": "🇪🇸",
   "Saudi Arabia": "🇸🇦",
   "Uruguay": "🇺🇾",
-  "Cape Verde": "🇨🇻",
+  "Cabo Verde": "🇨🇻",
   "France": "🇫🇷",
   "Iraq": "🇮🇶",
   "Norway": "🇳🇴",
