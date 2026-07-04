@@ -1073,7 +1073,7 @@ const fixtures = [
     venue: "Arrowhead Stadium, Kansas City",
     city: "Kansas City",
     country: "USA",
-    score: "",
+    score: "1 - 0",
     extraInfo: ""
   },
 
@@ -1171,7 +1171,7 @@ const fixtures = [
   {
     datetime: "2026-07-07T20:00:00Z",
     team1: "Switzerland",
-    team2: "Winner Match 87",
+    team2: "Colombia",
     stage: "Round of 16",
     matchSlot: "Match 96",
     venue: "BC Place, Vancouver",
