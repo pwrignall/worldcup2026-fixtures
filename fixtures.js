@@ -1086,7 +1086,7 @@ const fixtures = [
     venue: "NRG Stadium, Houston",
     city: "Houston",
     country: "USA",
-    score: "",
+    score: "0 - 3",
     extraInfo: ""
   },
 
@@ -1099,7 +1099,7 @@ const fixtures = [
     venue: "Lincoln Financial Field, Philadelphia",
     city: "Philadelphia",
     country: "USA",
-    score: "",
+    score: "0 - 1",
     extraInfo: ""
   },
 
@@ -1183,8 +1183,8 @@ const fixtures = [
 
   {
     datetime: "2026-07-09T20:00:00Z",
-    team1: "Winner Match 89",
-    team2: "Winner Match 90",
+    team1: "France",
+    team2: "Morocco",
     stage: "Quarter-Final",
     matchSlot: "Match 97",
     venue: "Gillette Stadium, Foxborough",
