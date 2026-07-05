@@ -1112,7 +1112,7 @@ const fixtures = [
     venue: "MetLife Stadium, New York/New Jersey",
     city: "East Rutherford",
     country: "USA",
-    score: "",
+    score: "1 - 2",
     extraInfo: ""
   },
 
@@ -1209,7 +1209,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-11T21:00:00Z",
-    team1: "Winner Match 91",
+    team1: "Norway",
     team2: "Winner Match 92",
     stage: "Quarter-Final",
     matchSlot: "Match 99",
