@@ -1125,7 +1125,7 @@ const fixtures = [
     venue: "Estadio Azteca, Mexico City",
     city: "Mexico City",
     country: "Mexico",
-    score: "3 - 2",
+    score: "2 - 3",
     extraInfo: ""
   },
 
