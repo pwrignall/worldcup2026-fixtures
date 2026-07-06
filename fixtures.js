@@ -1125,7 +1125,7 @@ const fixtures = [
     venue: "Estadio Azteca, Mexico City",
     city: "Mexico City",
     country: "Mexico",
-    score: "",
+    score: "3 - 2",
     extraInfo: ""
   },
 
@@ -1210,7 +1210,7 @@ const fixtures = [
   {
     datetime: "2026-07-11T21:00:00Z",
     team1: "Norway",
-    team2: "Winner Match 92",
+    team2: "England",
     stage: "Quarter-Final",
     matchSlot: "Match 99",
     venue: "Hard Rock Stadium, Miami",
