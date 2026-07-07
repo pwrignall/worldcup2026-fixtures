@@ -1138,7 +1138,7 @@ const fixtures = [
     venue: "AT&T Stadium, Arlington",
     city: "Dallas",
     country: "USA",
-    score: "",
+    score: "0 - 1",
     extraInfo: ""
   },
 
@@ -1151,7 +1151,7 @@ const fixtures = [
     venue: "Lumen Field, Seattle",
     city: "Seattle",
     country: "USA",
-    score: "",
+    score: "1 - 4",
     extraInfo: ""
   },
 
@@ -1196,8 +1196,8 @@ const fixtures = [
 
   {
     datetime: "2026-07-10T19:00:00Z",
-    team1: "Winner Match 93",
-    team2: "Winner Match 94",
+    team1: "Spain",
+    team2: "Belgium",
     stage: "Quarter-Final",
     matchSlot: "Match 98",
     venue: "SoFi Stadium, Los Angeles",
@@ -1235,8 +1235,8 @@ const fixtures = [
 
   {
     datetime: "2026-07-14T19:00:00Z",
-    team1: "Winner Match 97",
-    team2: "Winner Match 98",
+    team1: "France / Morocco",
+    team2: "Spain / Belgium",
     stage: "Semi-Final",
     matchSlot: "Match 101",
     venue: "AT&T Stadium, Arlington",
@@ -1248,7 +1248,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-15T19:00:00Z",
-    team1: "Winner Match 99",
+    team1: "Norway / England",
     team2: "Winner Match 100",
     stage: "Semi-Final",
     matchSlot: "Match 102",
