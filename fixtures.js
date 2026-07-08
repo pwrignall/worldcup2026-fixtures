@@ -1164,7 +1164,7 @@ const fixtures = [
     venue: "Mercedes-Benz Stadium, Atlanta",
     city: "Atlanta",
     country: "USA",
-    score: "",
+    score: "3 - 2",
     extraInfo: ""
   },
 
@@ -1177,8 +1177,8 @@ const fixtures = [
     venue: "BC Place, Vancouver",
     city: "Vancouver",
     country: "Canada",
-    score: "",
-    extraInfo: ""
+    score: "0 - 0",
+    extraInfo: "0 - 0 a.e.t. Switzerland win 4 - 3 on pens"
   },
 
   {
@@ -1222,8 +1222,8 @@ const fixtures = [
 
   {
     datetime: "2026-07-12T01:00:00Z",
-    team1: "Winner Match 95",
-    team2: "Winner Match 96",
+    team1: "Argentina",
+    team2: "Switzerland",
     stage: "Quarter-Final",
     matchSlot: "Match 100",
     venue: "Arrowhead Stadium, Kansas City",
@@ -1249,7 +1249,7 @@ const fixtures = [
   {
     datetime: "2026-07-15T19:00:00Z",
     team1: "Norway / England",
-    team2: "Winner Match 100",
+    team2: "Argentina / Switzerland",
     stage: "Semi-Final",
     matchSlot: "Match 102",
     venue: "Mercedes-Benz Stadium, Atlanta",
