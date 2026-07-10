@@ -1190,7 +1190,7 @@ const fixtures = [
     venue: "Gillette Stadium, Foxborough",
     city: "Boston",
     country: "USA",
-    score: "",
+    score: "2 - 0",
     extraInfo: ""
   },
 
@@ -1235,7 +1235,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-14T19:00:00Z",
-    team1: "France / Morocco",
+    team1: "France",
     team2: "Spain / Belgium",
     stage: "Semi-Final",
     matchSlot: "Match 101",
