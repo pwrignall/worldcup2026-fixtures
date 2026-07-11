@@ -1203,7 +1203,7 @@ const fixtures = [
     venue: "SoFi Stadium, Los Angeles",
     city: "Los Angeles",
     country: "USA",
-    score: "",
+    score: "1 - 0",
     extraInfo: ""
   },
 
@@ -1236,7 +1236,7 @@ const fixtures = [
   {
     datetime: "2026-07-14T19:00:00Z",
     team1: "France",
-    team2: "Spain / Belgium",
+    team2: "Spain",
     stage: "Semi-Final",
     matchSlot: "Match 101",
     venue: "AT&T Stadium, Arlington",
