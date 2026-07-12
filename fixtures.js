@@ -1216,8 +1216,8 @@ const fixtures = [
     venue: "Hard Rock Stadium, Miami",
     city: "Miami",
     country: "USA",
-    score: "",
-    extraInfo: ""
+    score: "1 - 1",
+    extraInfo: "1 - 2 a.e.t."
   },
 
   {
@@ -1229,8 +1229,8 @@ const fixtures = [
     venue: "Arrowhead Stadium, Kansas City",
     city: "Kansas City",
     country: "USA",
-    score: "",
-    extraInfo: ""
+    score: "1 - 1",
+    extraInfo: "1 - 3 a.e.t."
   },
 
   {
@@ -1248,8 +1248,8 @@ const fixtures = [
 
   {
     datetime: "2026-07-15T19:00:00Z",
-    team1: "Norway / England",
-    team2: "Argentina / Switzerland",
+    team1: "England",
+    team2: "Argentina",
     stage: "Semi-Final",
     matchSlot: "Match 102",
     venue: "Mercedes-Benz Stadium, Atlanta",
