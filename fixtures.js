@@ -1230,7 +1230,7 @@ const fixtures = [
     city: "Kansas City",
     country: "USA",
     score: "1 - 1",
-    extraInfo: "1 - 3 a.e.t."
+    extraInfo: "3 - 1 a.e.t."
   },
 
   {
@@ -1242,7 +1242,7 @@ const fixtures = [
     venue: "AT&T Stadium, Arlington",
     city: "Dallas",
     country: "USA",
-    score: "",
+    score: "0 - 2",
     extraInfo: ""
   },
 
@@ -1261,7 +1261,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-18T21:00:00Z",
-    team1: "Loser Match 101",
+    team1: "France",
     team2: "Loser Match 102",
     stage: "Third-Place Play-off",
     matchSlot: "Match 103",
@@ -1274,7 +1274,7 @@ const fixtures = [
 
   {
     datetime: "2026-07-19T19:00:00Z",
-    team1: "Winner Match 101",
+    team1: "Spain",
     team2: "Winner Match 102",
     stage: "Final",
     matchSlot: "Match 104",
