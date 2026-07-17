@@ -1255,14 +1255,14 @@ const fixtures = [
     venue: "Mercedes-Benz Stadium, Atlanta",
     city: "Atlanta",
     country: "USA",
-    score: "",
+    score: "1 - 2",
     extraInfo: ""
   },
 
   {
     datetime: "2026-07-18T21:00:00Z",
     team1: "France",
-    team2: "Loser Match 102",
+    team2: "England",
     stage: "Third-Place Play-off",
     matchSlot: "Match 103",
     venue: "Hard Rock Stadium, Miami",
@@ -1275,7 +1275,7 @@ const fixtures = [
   {
     datetime: "2026-07-19T19:00:00Z",
     team1: "Spain",
-    team2: "Winner Match 102",
+    team2: "Argentina",
     stage: "Final",
     matchSlot: "Match 104",
     venue: "MetLife Stadium, New York/New Jersey",
