@@ -1268,7 +1268,7 @@ const fixtures = [
     venue: "Hard Rock Stadium, Miami",
     city: "Miami",
     country: "USA",
-    score: "",
+    score: "4 - 6",
     extraInfo: ""
   },
 
